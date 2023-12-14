@@ -1,0 +1,46 @@
+@import url('./header.css');
+@import url('./ebooks.css');
+@import url('./explicacao.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Inter&family=JetBrains+Mono:wght@100&family=Josefin+Sans:wght@300&family=Kanit:wght@200;300&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Spectral:wght@200;700&family=Vollkorn&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Inter&family=JetBrains+Mono:wght@100&family=Josefin+Sans:wght@300&family=Kanit:wght@200;300&family=Laila:wght@300&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Spectral:wght@200;700&family=Vollkorn&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+:root{
+
+    --font1--: 'Josefin Sans', sans-serif;
+    --font2--: 'Laila', serif;
+
+    --cp1--: #3F5C3A;
+    --cp2: #5F4F11;
+    --ct1--: #4D9B41;
+    --cd--: #D0A12F;
+
+    -card--: #F2F6F7;;
+}
+span{
+    color: var(--cd--);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 64px;
+    color: var(--ct1--);
+    font-family: var(--font1--);
+    font-weight: bold;
+}

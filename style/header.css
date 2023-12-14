@@ -1,0 +1,44 @@
+
+.logo{
+    max-width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.bg-header{
+    position: relative;
+    background: url('/assets/images/bg.jpg') no-repeat center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    height: 400px;
+    margin-bottom: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: var(--font1--);
+}
+.header li{
+    font-size: 22px;
+}
+.bg-header > .bg-desc{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    max-width: 300px;
+    
+}
+
+.bg-desc > p, .header li{
+    color: var(--ct1--);
+font-family: var(--font2--);
+}
+.bg-desc > p{
+    font-size: 20px;
+}
